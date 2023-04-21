@@ -1,0 +1,110 @@
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSUSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : warning LNK4044: unrecognized option '/SUBSUSTEM:WINDOWS'; ignored
+LINK : fatal error LNK1561: entry point must be defined
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.obj : error LNK2019: unresolved external symbol lStrlen referenced in function WndProc
+SYSMETS1.obj : error LNK2019: unresolved external symbol DefWIndowProc referenced in function WndProc
+LIBCMT.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+SYSMETS1.exe : fatal error LNK1120: 3 unresolved externals
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSUSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : warning LNK4044: unrecognized option '/SUBSUSTEM:WINDOWS'; ignored
+LINK : fatal error LNK1561: entry point must be defined
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.obj : error LNK2019: unresolved external symbol lStrlen referenced in function WndProc
+SYSMETS1.obj : error LNK2019: unresolved external symbol Strlen referenced in function WndProc
+LIBCMT.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+SYSMETS1.exe : fatal error LNK1120: 3 unresolved externals
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.obj : error LNK2019: unresolved external symbol lStrlen referenced in function WndProc
+LIBCMT.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+SYSMETS1.exe : fatal error LNK1120: 2 unresolved externals
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.obj : error LNK2019: unresolved external symbol lStrlen referenced in function WndProc
+SYSMETS1.exe : fatal error LNK1120: 1 unresolved externals
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>SYSMETS1.exe
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>SYSMETS1.exe
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>cl.exe /c /EHsc SYSMETS1.c
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+SYSMETS1.c
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>link.exe SYSMETS1.obj USER32.lib GDI32.lib KERNEL32.lib /SUBSYSTEM:WINDOWS
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+C:\Users\Saloni\Documents\WINDOWS PROGRAMMING\SYSTEM_METRIICS>SYSMETS1.exe
